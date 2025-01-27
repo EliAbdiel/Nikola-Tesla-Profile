@@ -12,7 +12,7 @@ export default function PersonalProfile() {
                   style={{ borderTopLeftRadius: '.5rem', borderBottomLeftRadius: '.5rem' }}>
                   {/* <MDBCardImage src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
                     alt="Avatar" className="my-5" style={{ width: '80px' }} fluid /> */}
-                    <MDBCardImage src="./src/assets/tesla_circa.jpeg"
+                    <MDBCardImage src="./src/assets/tesla.jpeg"
                     alt="Avatar" className="my-5" style={{ width: '110px' }} fluid />
                   <MDBTypography tag="h5">Nikola Tesla</MDBTypography>
                   {/* <MDBCardText>Iconic</MDBCardText> */}
