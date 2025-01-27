@@ -12,8 +12,8 @@ export default function PersonalProfile() {
                   style={{ borderTopLeftRadius: '.5rem', borderBottomLeftRadius: '.5rem' }}>
                   {/* <MDBCardImage src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
                     alt="Avatar" className="my-5" style={{ width: '80px' }} fluid /> */}
-                    <MDBCardImage src="/tesla_circa.jpeg"
-                    alt="Avatar" className="my-5" style={{ width: '100px' }} fluid />
+                    <MDBCardImage src="./src/assets/tesla_circa.jpeg"
+                    alt="Avatar" className="my-5" style={{ width: '110px' }} fluid />
                   <MDBTypography tag="h5">Nikola Tesla</MDBTypography>
                   {/* <MDBCardText>Iconic</MDBCardText> */}
                   <MDBIcon far icon="edit mb-5" />
@@ -53,7 +53,7 @@ export default function PersonalProfile() {
                     </MDBRow> */}
 
                     <div className="d-flex justify-content-start">
-                      <a href="#!"><MDBIcon fab icon="github me-3" size="lg" /></a>
+                      <a href="https://github.com/EliAbdiel/Nikola-Tesla-Profile.git"><MDBIcon fab icon="github me-3" size="lg" /></a>
                       <a href="https://en.wikipedia.org/wiki/Nikola_Tesla"><MDBIcon fab icon="wikipedia-w me-3" size="lg" /></a>
                       {/* <a href="#!"><MDBIcon fab icon="instagram me-3" size="lg" /></a> */}
                     </div>
